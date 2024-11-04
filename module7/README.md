@@ -35,4 +35,23 @@ Find the distance between these points:
 - x = (0,0)
 - y = (4,4)
 
-Distance = 
+Distance = 5.6565...
+
+```python
+# see
+def knn_analysis()
+```
+
+### KNN with Jaccard Similarity Index
+Compares members of two individual sets to determine which members are `shared` and which are `distinct`. The index measures the similarity between the two sets.
+
+$$
+J(A,B) = \frac{|A \cap B|}{ |A \cup B|}
+$$
+
+Ex: $A = {1, 2, 3, 4}$ and $B= {3, 4, 5, 6}$ = $\frac{2}{6}$
+
+```python
+# see
+def jaccard_similarity_normal()
+```
