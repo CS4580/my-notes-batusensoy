@@ -143,10 +143,7 @@ def print_top_k(df, sorted_value, comparison_type):
     for idx, row in df.head(K).iterrows():
         t_title = row["title"][:30]  # truncate title to 40 characters
         t_genres = row["genres"][:30]  # truncate genres to 20 characters
-        print(
-            f"\tTop {counter:2d}) match: [{idx:8d}]:{row['year']:4d}\t{
-                t_title:40}\t{t_genres:20}\t{row[sorted_value]:.2f}"
-        )
+        print(f"\tTop {counter:2d}) match: [{idx:8d}]:{row['year']:4d}\t{t_title:40}\t{t_genres:20}\t{row[sorted_value]:.2f}")
         counter += 1
 
 

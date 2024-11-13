@@ -11,8 +11,7 @@ def simple_binary():
         if prediction[index] == actual_results[index]:
             correct += 1
     print(f'For loop accuracy = {(correct/len(prediction))*100:.2f}')
-    print(f'For Sklearn accuracy = {
-          (accuracy_score(actual_results, prediction)):.2f}')
+    print(f'For Sklearn accuracy = {(accuracy_score(actual_results, prediction)):.2f}')
 
 
 def main():
